@@ -11,7 +11,7 @@ This is also a hard problem to diagnose, as the lack of samples does not allow f
 There are many ways to approach the problem. Let's discuss some of them:
 
 ## Feature Selection
-Feature Selection is the method of reducing the input variable to your model by using only relevant data and getting rid of noise in data 
+Feature Selection is the method of removing irrelevant and redundant features of your model by using only relevant data and getting rid of noise in data, without affecting the learning performance.
 
 Common techniques include filter methods that select features based on their statistical relationship to the target variable (e.g. correlation), and wrapper methods that select features based on their contribution to a model when predicting the target variable (e.g. RFE).
 
